@@ -5,15 +5,21 @@
 }
 
 
+main {
+  margin: 3px;
+}
+
 .city {
   position: relative;
-  display: block;
+  display: flex;
+  margin: 4px;
 }
 
 img {
   display: block;
   height: 100vh;
   width: 100vw;
+  box-shadow: 2px 2px gray;
 }
 
 .city-content {
